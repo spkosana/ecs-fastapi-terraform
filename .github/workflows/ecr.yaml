@@ -38,7 +38,6 @@ jobs:
     - name: Build and tag the image
       run: |
           # Build and tag the image
-          docker build \
+          docker buildx build --platform=linux/amd64 \
             -t $CONTAINER_IMAGE \
             -t $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$CONTAINER_IMAGE .
-
