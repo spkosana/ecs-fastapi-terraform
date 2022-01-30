@@ -1,3 +1,21 @@
+
+**/.terraform/*
+
+terraform/**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.zip
+
+**/.zip
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.terraform.*
+terraform/*.tfvars
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

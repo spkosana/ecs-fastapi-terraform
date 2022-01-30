@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+pymongo
+SQLAlchemy
+faker
+pandas
+ujson
+pytest
+boto3
